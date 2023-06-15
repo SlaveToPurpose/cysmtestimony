@@ -1,0 +1,172 @@
+div {
+	margin-top: 15px;
+}
+
+.header {
+	display: block;
+}
+
+body {
+	background: #ffffff;
+}
+
+.header {
+	color: #576c31;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+button {
+	color: #0f1419;
+	border-radius: 5px;
+	background: #a2b248;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: center;
+	background-color: #a2b248;
+}
+
+.item {
+	text-align: center;
+	border: 1px solid #a2b248;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+@media only screen and (max-width: 769px) {
+	.mainprog {
+		flex-direction: column;
+	}
+
+	.mainprog {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 643px) {
+	.mainprog .heading {
+		width: 100%;
+	}
+
+	.mainprog .header h1 h2 {
+		font-size: 1em;
+
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 20px 20px 0 20px;
+}
+
+.container .heading {
+	width: 50%;
+	padding-bottom: 25px;
+}
+
+.content:hover {
+	background: linear-gradient(#fff, #eefc76);
+}
+
+.container .heading h3 {
+	font-size: 30px;
+	color: #576c31;
+	font-weight: bolder;
+}
+
+.container .heading h3 span {
+	font-weight: 100;
+}
+
+.container .box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.container .box .dream {
+	display: flex;
+	flex-direction: column;
+	width: 26%;
+}
+
+.container .box .dream img {
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 10%;
+}
+
+
+@media only screen and (max-width: 769px) {
+	.container .box {
+		flex-direction: column;
+	}
+
+	.container .box .dream {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 643px) {
+	.container .heading {
+		width: 100%;
+	}
+
+	.container .heading h3 {
+		font-size: 1em;
+
+	}
+
+}
+
+
+.content {
+	z-index: 2;
+	position: relative;
+}
+
+.dream .content p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #064724;
+}
+
+.dream .content .image {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	border-radius: 20%;
+	overflow: hidden;
+	border: 4px solid #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.dream .content .details h2 {
+	font-size: 16px;
+	color: #0eaf7a;
+}
+
+.dream .content .details h2 span {
+	color: #030303;
+	font-size: 14px;
+	transition: 0.5s;
+}
