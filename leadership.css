@@ -86,6 +86,11 @@ button {
 	background: linear-gradient(#fff, #eefc76);
 }
 
+.item:hover {
+  border-bottom: 2px solid #576c31;
+
+}
+
 .container .heading h3 {
 	font-size: 30px;
 	color: #576c31;
